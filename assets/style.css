@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%; /*10px = 1rem*/
+    font-family: 'Roboto', sans-serif;  
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: url(./img/Falling-04.jpg) no-repeat;
+    background-size: cover;
+}
+
+@keyframes slideInLeft{
+    from{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to{
+        opacity: 0;
+        transform: translateX(calc(100%));
+    } 
+}
+
+@keyframes slideInRight{
+    from{
+        opacity: 0;
+        transform: translateX(calc(100%));
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    } 
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.dashboard {
+    position: relative;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 25px;
+    border-top: 1px solid rgb(240, 240, 240);
+    border-left: 1px solid rgb(240, 240, 240);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+    padding-top: 15px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.dashboard #play{
+    font-size: 2.8rem;
+    background-color: white;
+    padding: 12px 15px;
+    border-radius: 50px;
+}
+
+.dashboard #pause{
+    display: none;
+}
+.dashboard.playing #pause{
+    font-size: 2.8rem;    
+    background-color: white;
+    padding: 12px 17px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.dashboard.playing #play{
+    display: none;
+} 
+
+.btn-play {
+    width: 50px;
+    text-align: center;
+}
+
+.btn-playlist {
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.btn-playlist.active {
+    color: #ff7c44;
+}
+
+.btn.active {
+    color: #ff7c44;
+}
+
+.cd {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;        
+    width: 250px;    
+    height: 250px;    
+    border-radius: 125px;
+    background-image: url(./img/music/vadcb.jfif);
+    background-size: 250px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.name h2 {
+    font-size: 2.2rem;
+}
+
+.name h4 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.control {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    align-items: center;
+}
+
+.btn i {
+    cursor: pointer;
+    font-size: 2.8rem;
+}
+
+.btn i:hover {
+    color: #ff7c44;
+}
+
+.progress {
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.2rem;
+}
+
+.playlist {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    top: 0;
+    right: 380px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgb(240, 240, 240);
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    overflow: auto;
+    animation: slideInRight 0.6s ease;
+}
+
+.playlist.active {
+    opacity: 0;
+    animation: slideInLeft 0.6s ease;
+}
+
+.playlist::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.playlist::-webkit-scrollbar-track {
+    --webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.playlist::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.song {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 7px 20px;
+    margin-right: 35px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.song.active {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.song:active {
+    opacity: 0.75;
+}
+
+.thumb img {
+    width: 60px;
+    height: 60px;
+    margin: 2px 12px;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-right: 2px;
+}
+
+.title {
+    font-size: 1.6rem;
+    padding: 2px 0;
+}
+.author {
+    padding: 2px 0;
+}
+
+.author,
+.icon-op {
+    font-size: 1.4rem;
+}
+
+.volumn {
+    text-align: center;
+}
+
+.volumn i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.volumn .mute {
+    display: none;
+}
+
+.volumn-value {
+    cursor: pointer;
+}
