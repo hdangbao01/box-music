@@ -27,16 +27,34 @@ const app = {
     isRepeat: false,
     songs: [
         {
+            name: 'Cô đơn không muốn về nhà',
+            singer: 'Mr. Siro',
+            path: './assets/music/cdkmvn.mp3',
+            image: './assets/img/music/cdkmvn.jpg'
+        },
+        {
+            name: 'Một bước yêu vạn dặm đau',
+            singer: 'Mr. Siro',
+            path: './assets/music/mbyvdd.mp3',
+            image: './assets/img/music/mbyvdd.jpg'
+        },
+        {
+            name: 'Tự lau nước mắt',
+            singer: 'Mr. Siro',
+            path: './assets/music/tear-mrsiro.mp3',
+            image: './assets/img/music/tlnm.jpg'
+        },
+        {
+            name: 'Càng níu dữ càng dễ mất',
+            singer: 'Mr. Siro',
+            path: './assets/music/cngcdm.mp3',
+            image: './assets/img/music/cngcdm.jpg'
+        },
+        {
             name: 'Vì anh đâu có biết',
             singer: 'Madihu, Vũ.',
             path: './assets/music/vi-anh-dau-co-biet.mp3',
             image: './assets/img/music/vadcb.jfif'
-        },
-        {
-            name: 'Xanh',
-            singer: 'Ngọt',
-            path: './assets/music/xanh.mp3',
-            image: './assets/img/music/x.jfif'
         },
         {
             name: 'Tiny love',
@@ -51,22 +69,16 @@ const app = {
             image: './assets/img/music/kt.jfif'
         },
         {
-            name: 'Bên trái',
-            singer: 'Kiên Trịnh',
-            path: './assets/music/ben-trai.mp3',
-            image: './assets/img/music/bt.jfif'
-        },
-        {
             name: 'Her summer',
             singer: 'Vũ.',
             path: './assets/music/her-summer.mp3',
             image: './assets/img/music/hs.jpg'
         },
         {
-            name: 'Tầng thượng 102',
-            singer: 'Cá Hồi Hoang',
-            path: './assets/music/tang-thuong-102.mp3',
-            image: './assets/img/music/th102.jpg'
+            name: 'Devil Love',
+            singer: 'Tobiez ft. Ntyn',
+            path: './assets/music/devil-love.mp3',
+            image: './assets/img/music/dl.jpg'
         },
         {
             name: 'Who',
@@ -75,22 +87,10 @@ const app = {
             image: './assets/img/music/w.jpg'
         },
         {
-            name: 'Loving you sunny',
-            singer: 'Kimmese, Đen',
-            path: './assets/music/loving-you-sunny.mp3',
-            image: './assets/img/music/lys.jfif'
-        },
-        {
-            name: 'Thích em hơi nhiều',
-            singer: 'Wren Evans',
-            path: './assets/music/thich-em-hoi-nhieu.mp3',
-            image: './assets/img/music/tehn.jfif'
-        },
-        {
-            name: 'Phiêu bồng',
-            singer: 'TOFU ft. VoVanDuc',
-            path: './assets/music/phieu-bong.mp3',
-            image: './assets/img/music/pb.jfif'
+            name: '5050',
+            singer: 'HIEUTHUHAI, HURRYKNG, MANBO',
+            path: './assets/music/5050.mp3',
+            image: './assets/img/music/5050.jpg'
         },
         {
             name: 'Bật nhạc lên',
@@ -99,10 +99,64 @@ const app = {
             image: './assets/img/music/bnl.jfif'
         },
         {
-            name: 'Devil Love',
-            singer: 'Tobiez ft. Ntyn',
-            path: './assets/music/devil-love.mp3',
-            image: './assets/img/music/dl.jpg'
+            name: 'Đưa em về nhà',
+            singer: 'Grey D, Chillies',
+            path: './assets/music/devn.mp3',
+            image: './assets/img/music/devn.jpg'
+        },
+        {
+            name: 'Mê đắm',
+            singer: 'Hoàng Tôn',
+            path: './assets/music/medam.mp3',
+            image: './assets/img/music/medam.jpg'
+        },
+        {
+            name: 'Thích em hơi nhiều',
+            singer: 'Wren Evans',
+            path: './assets/music/thich-em-hoi-nhieu.mp3',
+            image: './assets/img/music/tehn.jfif'
+        },
+        {
+            name: 'Đêm trong veo',
+            singer: 'RPT Groovie, RPT GONZO',
+            path: './assets/music/demtrongveo.mp3',
+            image: './assets/img/music/demtrongveo.jpg'
+        },
+        {
+            name: 'Phiêu bồng',
+            singer: 'TOFU ft. VoVanDuc',
+            path: './assets/music/phieu-bong.mp3',
+            image: './assets/img/music/pb.jfif'
+        },
+        {
+            name: 'Love like that',
+            singer: 'Kay Trần, Machiot, WOKEUP',
+            path: './assets/music/lovelike.mp3',
+            image: './assets/img/music/lovelike.jpg'
+        },
+        {
+            name: 'Loving you sunny',
+            singer: 'Kimmese, Đen',
+            path: './assets/music/loving-you-sunny.mp3',
+            image: './assets/img/music/lys.jfif'
+        },
+        {
+            name: 'Xanh',
+            singer: 'Ngọt',
+            path: './assets/music/xanh.mp3',
+            image: './assets/img/music/x.jfif'
+        },
+        {
+            name: 'Bên trái',
+            singer: 'Kiên Trịnh',
+            path: './assets/music/ben-trai.mp3',
+            image: './assets/img/music/bt.jfif'
+        },
+        {
+            name: 'Tầng thượng 102',
+            singer: 'Cá Hồi Hoang',
+            path: './assets/music/tang-thuong-102.mp3',
+            image: './assets/img/music/th102.jpg'
         },
         {
             name: 'Tình đăng như ly cà phê',
