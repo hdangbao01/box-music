@@ -64,6 +64,12 @@ const app = {
             image: './assets/img/music/tehn.jfif'
         },
         {
+            name: 'TSuit & Tie',
+            singer: 'RPT MCK, Hoàng Tôn',
+            path: './assets/music/suit.mp3',
+            image: './assets/img/music/mck.jpg'
+        },
+        {
             name: 'Đưa em về nhà',
             singer: 'Grey D, Chillies',
             path: './assets/music/devn.mp3',
@@ -93,9 +99,67 @@ const app = {
             path: './assets/music/ilmbt.mp3',
             image: './assets/img/music/ilmbt.jpg'
         },
-        //Lit
-        
+        {
+            name: 'Die for you',
+            singer: 'The Weeknd',
+            path: './assets/music/dfy.mp3',
+            image: './assets/img/music/dfy.jpg'
+        },
+        {
+            name: 'Earned it',
+            singer: 'The Weeknd',
+            path: './assets/music/earn.mp3',
+            image: './assets/img/music/earn.jpg'
+        },
+        {
+            name: 'I like you',
+            singer: 'Post Malone',
+            path: './assets/music/ilikeyou.mp3',
+            image: './assets/img/music/buffter.jpg'
+        },
+        {
+            name: 'I cannot be',
+            singer: 'Post Malone',
+            path: './assets/music/cannot.mp3',
+            image: './assets/img/music/buffter.jpg'
+        },        
         //Sad
+        {
+            name: 'Paris in the Rain',
+            singer: 'Lauv',
+            path: './assets/music/rain.mp3',
+            image: './assets/img/music/ilmbt.jpg'
+        },
+        {
+            name: 'Is there someone else?',
+            singer: 'The Weeknd',
+            path: './assets/music/isthere.mp3',
+            image: './assets/img/music/dawn.jpg'
+        },
+        {
+            name: 'Call Out My Name',
+            singer: 'The Weeknd',
+            path: './assets/music/call.mp3',
+            image: './assets/img/music/call.jpg'
+        },
+        {
+            name: 'I Was Never There',
+            singer: 'The Weeknd',
+            path: './assets/music/was.mp3',
+            image: './assets/img/music/call.jpg'
+        },
+        {
+            name: 'Hurt You',
+            singer: 'The Weeknd',
+            path: './assets/music/hurt.mp3',
+            image: './assets/img/music/call.jpg'
+        },
+        {
+            name: 'Privilege ',
+            singer: 'The Weeknd',
+            path: './assets/music/pri.mp3',
+            image: './assets/img/music/call.jpg'
+        },
         {
             name: 'Circle',
             singer: 'Post Malone',
@@ -103,9 +167,39 @@ const app = {
             image: './assets/img/music/circle.jpg'
         },
         {
+            name: 'Goodbyes',
+            singer: 'Post Malone',
+            path: './assets/music/gb.mp3',
+            image: './assets/img/music/circle.jpg'
+        },
+        {
             name: 'Better now',
             singer: 'Post Malone',
             path: './assets/music/betternow.mp3',
+            image: './assets/img/music/betternow.jpg'
+        },
+        {
+            name: 'Psycho',
+            singer: 'Post Malone',
+            path: './assets/music/psycho.mp3',
+            image: './assets/img/music/betternow.jpg'
+        },
+        {
+            name: 'Zack And Codeine',
+            singer: 'Post Malone',
+            path: './assets/music/zac.mp3',
+            image: './assets/img/music/betternow.jpg'
+        },
+        {
+            name: 'Ball for me',
+            singer: 'Post Malone',
+            path: './assets/music/ball.mp3',
+            image: './assets/img/music/betternow.jpg'
+        },
+        {
+            name: 'Otherside',
+            singer: 'Post Malone',
+            path: './assets/music/other.mp3',
             image: './assets/img/music/betternow.jpg'
         },
         {
@@ -126,6 +220,7 @@ const app = {
             path: './assets/music/mot-dieu-ma-anh-rat-ngai-noi-ra.mp3',
             image: './assets/img/music/mdmarnnr.jfif'
         }
+        //Lit
     ],
     render: function() {
         const htmls = this.songs.map((song, index) => {
