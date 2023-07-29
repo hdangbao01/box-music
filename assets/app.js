@@ -40,6 +40,12 @@ const app = {
         },
         //Love
         {
+            name: 'Có Em Đời Bỗng Vui',
+            singer: 'Chilles',
+            path: './assets/music/happy.mp3',
+            image: './assets/img/music/happy.jpg'
+        },
+        {
             name: 'Devil Love',
             singer: 'Tobiez ft. Ntyn',
             path: './assets/music/devil-love.mp3',
@@ -64,10 +70,34 @@ const app = {
             image: './assets/img/music/tehn.jfif'
         },
         {
-            name: 'TSuit & Tie',
+            name: 'Đã Lỡ Yêu Em Nhiều',
+            singer: 'Justatee',
+            path: './assets/music/love.mp3',
+            image: './assets/img/music/love.jpg'
+        },
+        {
+            name: 'Chìm sâu',
+            singer: 'RPT MCK, Trung Trần',
+            path: './assets/music/chimsau.mp3',
+            image: './assets/img/music/chimsau.jpg'
+        },
+        {
+            name: 'Suit & Tie',
             singer: 'RPT MCK, Hoàng Tôn',
             path: './assets/music/suit.mp3',
             image: './assets/img/music/mck.jpg'
+        },
+        {
+            name: 'Em 20',
+            singer: 'Winno',
+            path: './assets/music/em20.mp3',
+            image: './assets/img/music/em20.jpg'
+        },
+        {
+            name: 'Fancy',
+            singer: 'Winno',
+            path: './assets/music/fancy.mp3',
+            image: './assets/img/music/fancy.jpg'
         },
         {
             name: 'Đưa em về nhà',
@@ -76,16 +106,28 @@ const app = {
             image: './assets/img/music/devn.jpg'
         },
         {
-            name: 'Bật nhạc lên',
-            singer: 'HIEUTHUHAI, Harmonie',
-            path: './assets/music/bat-nhac-len.mp3',
-            image: './assets/img/music/bnl.jfif'
-        },
-        {
             name: 'Phiêu bồng',
             singer: 'TOFU ft. VoVanDuc',
             path: './assets/music/phieu-bong.mp3',
             image: './assets/img/music/pb.jfif'
+        },
+        {
+            name: 'She Said',
+            singer: 'Wean ft NAOMI',
+            path: './assets/music/shesaid.mp3',
+            image: './assets/img/music/shesaid.jpg'
+        },
+        {
+            name: 'Floating',
+            singer: 'Alina Baraz ft Khalid',
+            path: './assets/music/floating.mp3',
+            image: './assets/img/music/floating.jpg'
+        },
+        {
+            name: 'girl',
+            singer: 'oceanfromtheblue ft BLOO',
+            path: './assets/music/girl.mp3',
+            image: './assets/img/music/girl.jpg'
         },
         {
             name: 'I.F.L.Y',
@@ -98,6 +140,36 @@ const app = {
             singer: 'Lauv',
             path: './assets/music/ilmbt.mp3',
             image: './assets/img/music/ilmbt.jpg'
+        },
+        {
+            name: 'Stuck with U',
+            singer: 'Ariana Grande, Justin Bieber',
+            path: './assets/music/stuck.mp3',
+            image: './assets/img/music/stuck.jpg'
+        }, 
+        {
+            name: 'As It Was',
+            singer: 'PREP',
+            path: './assets/music/asit.mp3',
+            image: './assets/img/music/asit.jpg'
+        }, 
+        {
+            name: 'Roses',
+            singer: 'Finn Askew',
+            path: './assets/music/rose.mp3',
+            image: './assets/img/music/rose.jpg'
+        },
+        {
+            name: 'Intentions',
+            singer: 'Justin Bieber',
+            path: './assets/music/inten.mp3',
+            image: './assets/img/music/inten.jpg'
+        },
+        {
+            name: 'The Pull Up',
+            singer: 'Vedo',
+            path: './assets/music/pull.mp3',
+            image: './assets/img/music/vedo.jpg'
         },
         {
             name: 'Die for you',
@@ -122,7 +194,13 @@ const app = {
             singer: 'Post Malone',
             path: './assets/music/cannot.mp3',
             image: './assets/img/music/buffter.jpg'
-        },        
+        },     
+        {
+            name: 'Heartbreak Anniversary',
+            singer: 'Giveon',
+            path: './assets/music/heart.mp3',
+            image: './assets/img/music/heart.jpg'
+        },   
         //Sad
         {
             name: 'Paris in the Rain',
@@ -137,27 +215,9 @@ const app = {
             image: './assets/img/music/dawn.jpg'
         },
         {
-            name: 'Call Out My Name',
-            singer: 'The Weeknd',
-            path: './assets/music/call.mp3',
-            image: './assets/img/music/call.jpg'
-        },
-        {
             name: 'I Was Never There',
             singer: 'The Weeknd',
             path: './assets/music/was.mp3',
-            image: './assets/img/music/call.jpg'
-        },
-        {
-            name: 'Hurt You',
-            singer: 'The Weeknd',
-            path: './assets/music/hurt.mp3',
-            image: './assets/img/music/call.jpg'
-        },
-        {
-            name: 'Privilege ',
-            singer: 'The Weeknd',
-            path: './assets/music/pri.mp3',
             image: './assets/img/music/call.jpg'
         },
         {
@@ -170,6 +230,18 @@ const app = {
             name: 'Goodbyes',
             singer: 'Post Malone',
             path: './assets/music/gb.mp3',
+            image: './assets/img/music/circle.jpg'
+        },
+        {
+            name: 'Myself',
+            singer: 'Post Malone',
+            path: './assets/music/myself.mp3',
+            image: './assets/img/music/circle.jpg'
+        },
+        {
+            name: 'Die for me',
+            singer: 'Post Malone',
+            path: './assets/music/diefm.mp3',
             image: './assets/img/music/circle.jpg'
         },
         {
@@ -203,6 +275,66 @@ const app = {
             image: './assets/img/music/betternow.jpg'
         },
         {
+            name: 'Call Out My Name',
+            singer: 'The Weeknd',
+            path: './assets/music/call.mp3',
+            image: './assets/img/music/call.jpg'
+        },
+        {
+            name: 'Hurt You',
+            singer: 'The Weeknd',
+            path: './assets/music/hurt.mp3',
+            image: './assets/img/music/call.jpg'
+        },
+        {
+            name: 'Privilege',
+            singer: 'The Weeknd',
+            path: './assets/music/pri.mp3',
+            image: './assets/img/music/call.jpg'
+        },
+        {
+            name: 'People',
+            singer: 'Libianca',
+            path: './assets/music/people.mp3',
+            image: './assets/img/music/people.jpg'
+        },
+        {
+            name: 'wish you were gay',
+            singer: 'Billie Eilish',
+            path: './assets/music/gay.mp3',
+            image: './assets/img/music/gay.jpg'
+        },
+        {
+            name: 'SLOW DANCING IN THE DARK',
+            singer: 'Joji',
+            path: './assets/music/slow.mp3',
+            image: './assets/img/music/slow.jpg'
+        },
+        {
+            name: 'Va Vào Giai Điệu Này',
+            singer: 'MCK, Trung Trần',
+            path: './assets/music/giaidieu.mp3',
+            image: './assets/img/music/mck.jpg'
+        },
+        {
+            name: 'Anh Đã Quen Với Cô Đơn',
+            singer: 'Soobin Hoàng Sơn',
+            path: './assets/music/codon.mp3',
+            image: './assets/img/music/codon.jpg'
+        },
+        {
+            name: 'bao tiền một mớ bình yên?',
+            singer: '14 Casper, Bon Nghiêm',
+            path: './assets/music/casper.mp3',
+            image: './assets/img/music/casper.jpg'
+        },
+        {
+            name: 'ngày mây đen',
+            singer: 'Pay',
+            path: './assets/music/mayden.mp3',
+            image: './assets/img/music/mayden.jpg'
+        },
+        {
             name: 'AI BIET',
             singer: 'WEAN',
             path: './assets/music/ai-biet.mp3',
@@ -219,7 +351,19 @@ const app = {
             singer: 'Hải Sâm',
             path: './assets/music/mot-dieu-ma-anh-rat-ngai-noi-ra.mp3',
             image: './assets/img/music/mdmarnnr.jfif'
-        }
+        },
+        {
+            name: 'Hành tinh song song',
+            singer: 'Vũ.',
+            path: './assets/music/songsong.mp3',
+            image: './assets/img/music/songsong.jpg'
+        },
+        {
+            name: 'Bad Performance',
+            singer: 'Coldzy',
+            path: './assets/music/bad.mp3',
+            image: './assets/img/music/bad.jpg'
+        },
         //Lit
     ],
     render: function() {
