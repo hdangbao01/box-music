@@ -27,6 +27,13 @@ const app = {
     isRepeat: false,
     songs: [
         {
+            name: 'girl (black hair)',
+            singer: 'oceanfromtheblue ft BLOO',
+            path: './assets/music/girl.mp3',
+            image: './assets/img/music/girl.jpg'
+        }
+        /*
+        {
             name: 'Vì anh đâu có biết',
             singer: 'Madihu, Vũ.',
             path: './assets/music/vi-anh-dau-co-biet.mp3',
@@ -364,6 +371,7 @@ const app = {
             path: './assets/music/bad.mp3',
             image: './assets/img/music/bad.jpg'
         },
+        */
         //Lit
     ],
     render: function() {
@@ -571,10 +579,8 @@ const app = {
     start: function() {
         this.defineProperties()
         this.handleEvents()
-
         this.loadCurrentSong()
-
-        this.render()        
+        this.render()
     }
 }
 
