@@ -1,70 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Box Music</title>
-        <link rel="stylesheet" href="./assets/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    </head>
 
-    <body>
-        <div class="app">
-            <div class="dashboard">
-                <div class="list">
-                    <i class="fa-solid fa-bars btn-playlist active"></i>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Music</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CT2DK46BLY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CT2DK46BLY');
+    </script>
+</head>
+
+<body>
+    <div class="app">
+        <div class="dashboard">
+            <div class="list">
+                <i class="fa-solid fa-bars btn-playlist active"></i>
+            </div>
+            <div class="main">
+                <div class="cd">
+                    <!-- <img src="./assets/img/music/vadcb.jfif"> -->
                 </div>
-                <div class="main">
-                            <div class="cd">
-                                <!-- <img src="./assets/img/music/vadcb.jfif"> -->
-                            </div>
-            
-                            <div class="name">
-                                <h2>girl</h2>
-                                <h4>oceanfromtheblue</h4>
-                            </div>
-            
-                            <div class="control">
-                                <div class="btn btn-repeat">
-                                    <i class="fa-solid fa-rotate-right"></i>
-                                </div>
-                                <div class="btn btn-prev">
-                                    <i class="fa-solid fa-backward-step"></i>
-                                </div>
-                                <div class="btn btn-play">
-                                    <i class="fa-solid fa-play" id="play"></i>
-                                    <i class="fa-solid fa-pause" id="pause"></i>
-                                </div>
-                                <div class="btn btn-next">
-                                    <i class="fa-solid fa-forward-step"></i>
-                                </div>
-                                <div class="btn btn-shuff">
-                                    <i class="fa-solid fa-shuffle"></i>
-                                </div>
-                            </div>
-            
-                            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
-            
-                            <div class="time">
-                                <div class="time-process"></div>    
-                                <div class="time-full"></div>
-                            </div>
-        
-                            <div class="volumn">
-                                <i class="fas fa-volume-up volumn-icon"></i>
-                                <i class="fas fa-volume-mute volumn-mute mute"></i>
-                                <input class="volumn-value" type="range" value="100" step="1" min="0" max="100">
-                            </div>
-            
-                            <audio id="audio" src=""></audio>
+
+                <div class="name">
+                    <h2>girl</h2>
+                    <h4>oceanfromtheblue</h4>
                 </div>
-                <div class="playlist">                                  
-                </div>          
+
+                <div class="control">
+                    <div class="btn btn-repeat">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                    <div class="btn btn-prev">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </div>
+                    <div class="btn btn-play">
+                        <i class="fa-solid fa-play" id="play"></i>
+                        <i class="fa-solid fa-pause" id="pause"></i>
+                    </div>
+                    <div class="btn btn-next">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </div>
+                    <div class="btn btn-shuff">
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                </div>
+
+                <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+
+                <div class="time">
+                    <div class="time-process"></div>
+                    <div class="time-full"></div>
+                </div>
+
+                <div class="volumn">
+                    <i class="fas fa-volume-up volumn-icon"></i>
+                    <i class="fas fa-volume-mute volumn-mute mute"></i>
+                    <input class="volumn-value" type="range" value="100" step="1" min="0" max="100">
+                </div>
+
+                <audio id="audio" src=""></audio>
+            </div>
+            <div class="playlist">
             </div>
         </div>
+    </div>
 
-        <script src="./assets/app.js"></script>
-    </body>
+    <script src="./assets/app.js"></script>
+</body>
+
 </html>
