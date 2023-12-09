@@ -26,132 +26,132 @@ const app = {
     isRandom: false,
     isRepeat: false,
     songs: [
-        {
-            name: 'Santa\'s Coming for Us',
-            singer: 'Sia',
-            path: './assets/music/xmas/coming.mp3',
-            image: './assets/img/music/xmas/sia.jpg'
-        },
-        {
-            name: 'Christmas Without You',
-            singer: 'Ava Max',
-            path: './assets/music/xmas/without.mp3',
-            image: './assets/img/music/xmas/without.jpg'
-        },
-        {
-            name: 'Blame It On The Mistletoe',
-            singer: 'Ella Henderson, AJ Mitchell',
-            path: './assets/music/xmas/blame.mp3',
-            image: './assets/img/music/xmas/mistletoe.png'
-        },
-        {
-            name: 'Santa, Can\'t You Hear Me',
-            singer: 'Kelly Clarkson, Ariana Grande',
-            path: './assets/music/xmas/hear.mp3',
-            image: './assets/img/music/xmas/hear.jpg'
-        },
-        {
-            name: 'All I Want for Christmas Is You',
-            singer: 'Mariah Carey',
-            path: './assets/music/xmas/alliwant.mp3',
-            image: './assets/img/music/xmas/alliwant.jpg'
-        },
-        {
-            name: 'Last Christmas',
-            singer: 'Ariana Grande',
-            path: './assets/music/xmas/last.mp3',
-            image: './assets/img/music/xmas/last.jpg'
-        },
-        {
-            name: 'Santa Tell Me',
-            singer: 'Ariana Grande',
-            path: './assets/music/xmas/tell.mp3',
-            image: './assets/img/music/xmas/tell.jpg'
-        },
-        {
-            name: 'Christmas Memories',
-            singer: 'Loving Caliber, Jacslyn Edgar',
-            path: './assets/music/xmas/memories.mp3',
-            image: './assets/img/music/xmas/memo.jpg'
-        },
-        {
-            name: 'Jingle Bell Rock',
-            singer: 'Bobby Helms',
-            path: './assets/music/xmas/rock.mp3',
-            image: './assets/img/music/xmas/rock.jpg'
-        },
-        {
-            name: 'Like it\'s Christmas',
-            singer: 'Jonas Brothers',
-            path: './assets/music/xmas/likeit.mp3',
-            image: './assets/img/music/xmas/likeit.jpg'
-        },
-        {
-            name: 'Underneath the Tree',
-            singer: 'Kelly Clarkson',
-            path: './assets/music/xmas/underneath.mp3',
-            image: './assets/img/music/xmas/under.jpg'
-        },
-        {
-            name: 'Rockin Around The Christmas Tree',
-            singer: 'Justin Bieber',
-            path: './assets/music/xmas/rockin.mp3',
-            image: './assets/img/music/xmas/rockin.jpg'
-        },
-        {
-            name: 'At Christmas',
-            singer: 'Kylie Minohue',
-            path: './assets/music/xmas/atxmas.mp3',
-            image: './assets/img/music/xmas/at.jpg'
-        },
-        {
-            name: '25th',
-            singer: 'Tori Kelly',
-            path: './assets/music/xmas/25th.mp3',
-            image: './assets/img/music/xmas/25th.jpg'
-        },
-        {
-            name: 'Winter Things',
-            singer: 'Ariana Grande',
-            path: './assets/music/xmas/winterthing.mp3',
-            image: './assets/img/music/xmas/winterthing.jpg'
-        },
-        {
-            name: 'Mistletoe',
-            singer: 'Justin Bieber',
-            path: './assets/music/xmas/mistletoe.mp3',
-            image: './assets/img/music/xmas/miss.jpg'
-        },
-        {
-            name: 'Christmas Lights',
-            singer: 'Coldplay',
-            path: './assets/music/xmas/light.mp3',
-            image: './assets/img/music/xmas/light.jpg'
-        },
-        {
-            name: 'It\'s Begining To Look A Lot Like Christmas ',
-            singer: 'Matthew Ifield',
-            path: './assets/music/xmas/alotlike.mp3',
-            image: './assets/img/music/xmas/matthew.jpg'
-        },
-        {
-            name: 'White Christmas',
-            singer: 'Matthew Ifield',
-            path: './assets/music/xmas/white.mp3',
-            image: './assets/img/music/xmas/matthew.jpg'
-        },
-        {
-            name: 'Winter Wonderland',
-            singer: 'Matthew Ifield',
-            path: './assets/music/xmas/wonderland.mp3',
-            image: './assets/img/music/xmas/matthew.jpg'
-        },
-        {
-            name: 'Snowman',
-            singer: 'Sia',
-            path: './assets/music/xmas/snowman.mp3',
-            image: './assets/img/music/xmas/sia.jpg'
-        },
+        // {
+        //     name: 'Santa\'s Coming for Us',
+        //     singer: 'Sia',
+        //     path: './assets/music/xmas/coming.mp3',
+        //     image: './assets/img/music/xmas/sia.jpg'
+        // },
+        // {
+        //     name: 'Christmas Without You',
+        //     singer: 'Ava Max',
+        //     path: './assets/music/xmas/without.mp3',
+        //     image: './assets/img/music/xmas/without.jpg'
+        // },
+        // {
+        //     name: 'Blame It On The Mistletoe',
+        //     singer: 'Ella Henderson, AJ Mitchell',
+        //     path: './assets/music/xmas/blame.mp3',
+        //     image: './assets/img/music/xmas/mistletoe.png'
+        // },
+        // {
+        //     name: 'Santa, Can\'t You Hear Me',
+        //     singer: 'Kelly Clarkson, Ariana Grande',
+        //     path: './assets/music/xmas/hear.mp3',
+        //     image: './assets/img/music/xmas/hear.jpg'
+        // },
+        // {
+        //     name: 'All I Want for Christmas Is You',
+        //     singer: 'Mariah Carey',
+        //     path: './assets/music/xmas/alliwant.mp3',
+        //     image: './assets/img/music/xmas/alliwant.jpg'
+        // },
+        // {
+        //     name: 'Last Christmas',
+        //     singer: 'Ariana Grande',
+        //     path: './assets/music/xmas/last.mp3',
+        //     image: './assets/img/music/xmas/last.jpg'
+        // },
+        // {
+        //     name: 'Santa Tell Me',
+        //     singer: 'Ariana Grande',
+        //     path: './assets/music/xmas/tell.mp3',
+        //     image: './assets/img/music/xmas/tell.jpg'
+        // },
+        // {
+        //     name: 'Christmas Memories',
+        //     singer: 'Loving Caliber, Jacslyn Edgar',
+        //     path: './assets/music/xmas/memories.mp3',
+        //     image: './assets/img/music/xmas/memo.jpg'
+        // },
+        // {
+        //     name: 'Jingle Bell Rock',
+        //     singer: 'Bobby Helms',
+        //     path: './assets/music/xmas/rock.mp3',
+        //     image: './assets/img/music/xmas/rock.jpg'
+        // },
+        // {
+        //     name: 'Like it\'s Christmas',
+        //     singer: 'Jonas Brothers',
+        //     path: './assets/music/xmas/likeit.mp3',
+        //     image: './assets/img/music/xmas/likeit.jpg'
+        // },
+        // {
+        //     name: 'Underneath the Tree',
+        //     singer: 'Kelly Clarkson',
+        //     path: './assets/music/xmas/underneath.mp3',
+        //     image: './assets/img/music/xmas/under.jpg'
+        // },
+        // {
+        //     name: 'Rockin Around The Christmas Tree',
+        //     singer: 'Justin Bieber',
+        //     path: './assets/music/xmas/rockin.mp3',
+        //     image: './assets/img/music/xmas/rockin.jpg'
+        // },
+        // {
+        //     name: 'At Christmas',
+        //     singer: 'Kylie Minohue',
+        //     path: './assets/music/xmas/atxmas.mp3',
+        //     image: './assets/img/music/xmas/at.jpg'
+        // },
+        // {
+        //     name: '25th',
+        //     singer: 'Tori Kelly',
+        //     path: './assets/music/xmas/25th.mp3',
+        //     image: './assets/img/music/xmas/25th.jpg'
+        // },
+        // {
+        //     name: 'Winter Things',
+        //     singer: 'Ariana Grande',
+        //     path: './assets/music/xmas/winterthing.mp3',
+        //     image: './assets/img/music/xmas/winterthing.jpg'
+        // },
+        // {
+        //     name: 'Mistletoe',
+        //     singer: 'Justin Bieber',
+        //     path: './assets/music/xmas/mistletoe.mp3',
+        //     image: './assets/img/music/xmas/miss.jpg'
+        // },
+        // {
+        //     name: 'Christmas Lights',
+        //     singer: 'Coldplay',
+        //     path: './assets/music/xmas/light.mp3',
+        //     image: './assets/img/music/xmas/light.jpg'
+        // },
+        // {
+        //     name: 'It\'s Begining To Look A Lot Like Christmas ',
+        //     singer: 'Matthew Ifield',
+        //     path: './assets/music/xmas/alotlike.mp3',
+        //     image: './assets/img/music/xmas/matthew.jpg'
+        // },
+        // {
+        //     name: 'White Christmas',
+        //     singer: 'Matthew Ifield',
+        //     path: './assets/music/xmas/white.mp3',
+        //     image: './assets/img/music/xmas/matthew.jpg'
+        // },
+        // {
+        //     name: 'Winter Wonderland',
+        //     singer: 'Matthew Ifield',
+        //     path: './assets/music/xmas/wonderland.mp3',
+        //     image: './assets/img/music/xmas/matthew.jpg'
+        // },
+        // {
+        //     name: 'Snowman',
+        //     singer: 'Sia',
+        //     path: './assets/music/xmas/snowman.mp3',
+        //     image: './assets/img/music/xmas/sia.jpg'
+        // },
         {
             name: 'GSTM',
             singer: 'VSTRA',
@@ -163,8 +163,7 @@ const app = {
             singer: '',
             path: './assets/music/xmas/nol.mp3',
             image: './assets/img/music/xmas/not.jpg'
-        }
-        /*
+        },
         {
             name: 'girl (black hair)',
             singer: 'oceanfromtheblue ft BLOO',
@@ -509,7 +508,6 @@ const app = {
             path: './assets/music/bad.mp3',
             image: './assets/img/music/bad.jpg'
         },
-        */
     ],
     render: function() {
         const htmls = this.songs.map((song, index) => {
