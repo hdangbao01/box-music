@@ -686,8 +686,8 @@ const app = {
     loadCurrentSong: function() {
         title.textContent = this.currentSong.name
         singer.textContent = this.currentSong.singer
-        // cbThumb.style.backgroundImage = `url('${this.currentSong.image}')`        
-        cbThumb.style.backgroundImage = `url('./assets/img/music/xmas/not.jpg')`        
+        cbThumb.style.backgroundImage = `url('${this.currentSong.image}')`        
+        // cbThumb.style.backgroundImage = `url('./assets/img/music/xmas/not.jpg')`        
         audio.src = this.currentSong.path        
     },
     nextSong: function() {
